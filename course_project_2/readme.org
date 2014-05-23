@@ -27,7 +27,7 @@ the 10-year period 1999-2008.
   [[./plot1.png]]
 
 - Have total emissions from PM_{2.5} decreased in the Baltimore City, Maryland
-from 1999 to 2008?
+  from 1999 to 2008?
 
   [[./plot2.png]]
 
