@@ -23,11 +23,11 @@ both.emissions <- rbind(bmore.emissions.aggr, la.emissions.aggr)
 
 # plot
 library(ggplot2)
+png("plot6.png")
 ggplot(both.emissions, aes(x=factor(year), y=Emissions, fill=County)) +
     geom_bar(stat="identity") + 
     facet_grid(County  ~ ., scales="free") +
     ylab("total emissions (tons)") + 
     xlab("year") +
     ggtitle(expression("Motor vehicle emission variation\nin Baltimore and Los Angeles"))
-
-
+dev.off()
